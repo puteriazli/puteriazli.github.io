@@ -28,7 +28,31 @@ const PROJECTS = [
     slides:['assets/projects/tomato plant disease/01.jpg','assets/projects/tomato plant disease/0.jpg','assets/projects/tomato plant disease/0.jpg','assets/projects/tomato plant disease/0.jpg','assets/projects/tomato plant disease/0.jpg']
   },
   {
-    num:'02', emoji:'🏠',
+    num:'02', emoji:'📡',
+    tags:['ds','eda'],
+    date:'May 2024',
+    cats:['Data Analysis','Data Science','EDA','Data Visualization'],
+    catColors:['syn-green','syn-blue'],
+    title:'Analysis Data Air Quality Monitoring in Ancona City',
+    descShort:'Comprehensive air quality data analysis for Ancona — temporal trends, pollutant correlations, and spatial visualization.',
+    features:['Pollutant trend analysis','Spatial heatmaps','Correlation analysis','Multi-year dataset','Interactive Plotly charts'],
+    problem:'Air quality data for Ancona city was scattered and unanalyzed, making it impossible to identify pollution patterns and high-risk periods.',
+    solution:'Comprehensive Python analysis covering temporal trends, pollutant correlations, and spatial distribution across monitoring stations.',
+    contribution:[
+      'Analyzed multi-year dataset covering PM2.5, PM10, NO2, CO, and O3 metrics.',
+      'Built temporal trend charts revealing seasonal pollution patterns and daily fluctuations.',
+      'Performed correlation analysis between pollutants and weather variables.',
+      'Created spatial heatmaps visualizing pollution distribution across monitoring stations.',
+      'Derived insight report identifying high-risk periods and locations for public awareness.'
+    ],
+    result:'Comprehensive air quality report with temporal and spatial insights for Ancona',
+    stack:['Python','Pandas','Matplotlib','Seaborn','Plotly','NumPy'],
+    tools:['Jupyter Notebook','Google Colab'],
+    github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/5049',
+    slides:['assets/projects/air quality ancona/.jpg']
+  },
+  {
+    num:'03', emoji:'🏠',
     tags:['ai','ds','fullstack'],
     date:'Mar 2024 — May 2024',
     cats:['Data Science','Machine Learning','Regression','Fullstack','EDA','Data Preprocessing'],
@@ -53,8 +77,31 @@ const PROJECTS = [
     portfolio:'',
     slides:['assets/projects/house price prediction/.png','assets/projects/house price prediction/.png','assets/projects/house price prediction/.png','assets/projects/house price prediction/.png','assets/projects/house price prediction/.png']
   },
+    {
+    num:'04', emoji:'👤',
+    tags:['ai','cv','ds'],
+    date:'[Fill Date]',
+    cats:['Computer Vision','Deep Learning','AI / ML'],
+    catColors:['syn-purple','syn-cyan'],
+    title:'Face Recognition System for Security Application',
+    descShort:'[DUMMY] Fill with your project description. Deep learning face recognition for identity verification.',
+    features:['Real-time recognition','Identity verification','Deep learning model','OpenCV integration','[Feature 5]'],
+    problem:'[DUMMY] Describe the problem this project solved.',
+    solution:'[DUMMY] Describe your solution and technical approach.',
+    contribution:[
+      '[Bullet 1] What did you do?',
+      '[Bullet 2]',
+      '[Bullet 3]',
+      '[Bullet 4]',
+      '[Bullet 5]'],
+    result:'[DUMMY] Replace with your real result metric',
+    stack:['Python','PyTorch','DeepFace','TensorFlow'],
+    tools:['Google Colab','Git & GitHub'],
+    github:'https://github.com/puteriazli/Face-Recognition-for-Security-System',demo:'',portfolio:'',
+    slides:['assets/projects/face recognition/.jpg','assets/projects/face recognition/.jpg','assets/projects/face recognition/.jpg','assets/projects/face recognition/.jpg','assets/projects/face recognition/.jpg']
+  },
   {
-    num:'03', emoji:'💬',
+    num:'05', emoji:'💬',
     tags:['nlp','ai','ds'],
     date:'Apr 2024 — May 2024',
     cats:['NLP','AI / ML','Transfer Learning'],
@@ -78,33 +125,8 @@ const PROJECTS = [
     demo:'',portfolio:'',
     slides:['assets/projects/sentiment analysis dana/.png','assets/projects/sentiment analysis dana/.png','assets/projects/sentiment analysis dana/.png','assets/projects/sentiment analysis dana/.png',]
   },
-  {
-    num:'04', emoji:'📱',
-    tags:['ds','timeseries','eda'],
-    date:'May 2024 — Jun 2024',
-    cats:['Data Science','Data Analysis','Time Series Analysis',' Data Visualization','EDA'],
-    catColors:['syn-green','syn-yellow'],
-    title:'WhatsApp Review — Time Series Analysis',
-    descShort:'Comprehensive Python analysis of WhatsApp app reviews — daily/monthly trends, sentiment distribution, and negative review heatmaps.',
-    features:['Time series visualization','Sentiment heatmaps','Keyword extraction','3-year trend analysis','Review frequency patterns'],
-    problem:'App reviews contain temporal and behavioral patterns that go unanalyzed, missing critical signals about product quality over time.',
-    solution:'Comprehensive Python analysis pipeline covering daily/monthly trends, sentiment distribution, and negative review timing heatmaps.',
-    contribution:[
-      'Analyzed 10K+ app store reviews across 3-year time window for pattern detection.',
-      'Built daily, weekly, and monthly trend visualizations to track sentiment over time.',
-      'Created review frequency heatmaps to identify peak complaint periods.',
-      'Applied keyword extraction to identify the most common issues per time period.',
-      'Derived actionable product insights from temporal review patterns.'
-    ],
-    result:'Multi-dimensional visual analysis of 10K+ reviews across 3-year window',
-    stack:['Python','Pandas','Matplotlib','Seaborn','WordCloud'],
-    tools:['Jupyter Notebook','Google Colab'],
-    github:'https://github.com/puteriazli/WhatsApp-Pulse-app-review-trend-sentiment-analysis/blob/main/README.md',
-    demo:'',portfolio:'',
-    slides:['assets/projects/whatsapp time series analysis/.jpg','assets/projects/whatsapp time series analysis/.jpg','assets/projects/whatsapp time series analysis/.jpg','assets/projects/whatsapp time series analysis/.jpg','assets/projects/whatsapp time series analysis/.jpg',]
-  },
-  {
-    num:'05', emoji:'🛣️',
+    {
+    num:'06', emoji:'🛣️',
     tags:['ai','cv','fullstack','ds'],
     date:'Jun 2024',
     cats:['Computer Vision','Deep Learning','AI / ML','Fullstack'],
@@ -128,7 +150,56 @@ const PROJECTS = [
     slides:['assets/projects/road damage detection/.png','assets/projects/road damage detection/.png','assets/projects/road damage detection/.png']
   },
   {
-    num:'06', emoji:'🩺',
+    num:'07', emoji:'📱',
+    tags:['ds','timeseries','eda'],
+    date:'May 2024 — Jun 2024',
+    cats:['Data Science','Data Analysis','Time Series Analysis',' Data Visualization','EDA'],
+    catColors:['syn-green','syn-yellow'],
+    title:'WhatsApp Review — Time Series Analysis',
+    descShort:'Comprehensive Python analysis of WhatsApp app reviews — daily/monthly trends, sentiment distribution, and negative review heatmaps.',
+    features:['Time series visualization','Sentiment heatmaps','Keyword extraction','3-year trend analysis','Review frequency patterns'],
+    problem:'App reviews contain temporal and behavioral patterns that go unanalyzed, missing critical signals about product quality over time.',
+    solution:'Comprehensive Python analysis pipeline covering daily/monthly trends, sentiment distribution, and negative review timing heatmaps.',
+    contribution:[
+      'Analyzed 10K+ app store reviews across 3-year time window for pattern detection.',
+      'Built daily, weekly, and monthly trend visualizations to track sentiment over time.',
+      'Created review frequency heatmaps to identify peak complaint periods.',
+      'Applied keyword extraction to identify the most common issues per time period.',
+      'Derived actionable product insights from temporal review patterns.'
+    ],
+    result:'Multi-dimensional visual analysis of 10K+ reviews across 3-year window',
+    stack:['Python','Pandas','Matplotlib','Seaborn','WordCloud'],
+    tools:['Jupyter Notebook','Google Colab'],
+    github:'https://github.com/puteriazli/WhatsApp-Pulse-app-review-trend-sentiment-analysis/blob/main/README.md',
+    demo:'',portfolio:'',
+    slides:['assets/projects/whatsapp time series analysis/.jpg','assets/projects/whatsapp time series analysis/.jpg','assets/projects/whatsapp time series analysis/.jpg','assets/projects/whatsapp time series analysis/.jpg','assets/projects/whatsapp time series analysis/.jpg',]
+  },
+    {
+    num:'8', emoji:'😷',
+    tags:['ai','cv','ds'],
+    date:'Jun 2024',
+    cats:['Computer Vision','Deep Learning','AI/ML'],
+    catColors:['syn-purple','syn-cyan'],
+    title:'Face Mask Detection using Deep Learning',
+    descShort:'Real-time deep learning model to detect mask usage, deployed as a web app with camera and image upload support.',
+    features:['Real-time webcam detection','MobileNetV2 transfer learning','Flask web deployment','Image upload support','High inference speed'],
+    problem:'Monitoring mask usage manually in public areas is inefficient and unscalable for large-scale compliance checking.',
+    solution:'MobileNetV2-based transfer learning model for real-time mask detection deployed as a Flask web app supporting webcam and image upload.',
+    contribution:[
+      'Trained MobileNetV2-based transfer learning model on labeled mask/no-mask dataset.',
+      'Integrated OpenCV for real-time webcam detection with bounding box annotation.',
+      'Deployed model via Flask web app supporting both live camera and image upload.',
+      'Achieved high accuracy through fine-tuning and data augmentation techniques.',
+      'Optimized model inference speed for real-time performance on standard hardware.'
+    ],
+    result:'Real-time face mask detection via webcam & image upload with high accuracy',
+    stack:['Python','TensorFlow','MobileNetV2','OpenCV'],
+    tools:['Jupyter Notebook','GitHub','Postman'],
+    github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/4792',
+    slides:['assets/projects/facemask detection/.jpg','assets/projects/facemask detection/.jpg','assets/projects/facemask detection/.jpg']
+  },
+  {
+    num:'09', emoji:'🩺',
     tags:['ds','ai','medical','eda'],
     date:'Apr 2024',
     cats:['AI / ML','Data Science','Classification'],
@@ -153,7 +224,7 @@ const PROJECTS = [
     slides:['assets/projects/breast cancer classification/.png','assets/projects/breast cancer classification/.png','assets/projects/breast cancer classification/.png',]
   },
   {
-    num:'07', emoji:'🎙️',
+    num:'10', emoji:'🎙️',
     tags:['ds','speech','ai'],
     date:'May 2024',
     cats:['Data Science','AI/ML','Audio Extraction','Speech'],
@@ -177,31 +248,7 @@ const PROJECTS = [
     slides:['assets/projects/Emotion Recognition/.png','assets/projects/Emotion Recognition/.png','assets/projects/Emotion Recognition/.png']
   },
   {
-    num:'08', emoji:'📡',
-    tags:['ds','eda'],
-    date:'May 2024',
-    cats:['Data Analysis','Data Science','EDA','Data Visualization'],
-    catColors:['syn-green','syn-blue'],
-    title:'Analysis Data Air Quality Monitoring in Ancona City',
-    descShort:'Comprehensive air quality data analysis for Ancona — temporal trends, pollutant correlations, and spatial visualization.',
-    features:['Pollutant trend analysis','Spatial heatmaps','Correlation analysis','Multi-year dataset','Interactive Plotly charts'],
-    problem:'Air quality data for Ancona city was scattered and unanalyzed, making it impossible to identify pollution patterns and high-risk periods.',
-    solution:'Comprehensive Python analysis covering temporal trends, pollutant correlations, and spatial distribution across monitoring stations.',
-    contribution:[
-      'Analyzed multi-year dataset covering PM2.5, PM10, NO2, CO, and O3 metrics.',
-      'Built temporal trend charts revealing seasonal pollution patterns and daily fluctuations.',
-      'Performed correlation analysis between pollutants and weather variables.',
-      'Created spatial heatmaps visualizing pollution distribution across monitoring stations.',
-      'Derived insight report identifying high-risk periods and locations for public awareness.'
-    ],
-    result:'Comprehensive air quality report with temporal and spatial insights for Ancona',
-    stack:['Python','Pandas','Matplotlib','Seaborn','Plotly','NumPy'],
-    tools:['Jupyter Notebook','Google Colab'],
-    github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/5049',
-    slides:['assets/projects/air quality ancona/.jpg']
-  },
-  {
-    num:'09', emoji:'📈',
+    num:'11', emoji:'📈',
     tags:['ds','eda'],
     date:'Mar 2024',
     cats:['Data Analysis','Data Science','EDA','Data Visualization'],
@@ -225,31 +272,7 @@ const PROJECTS = [
     slides:['assets/projects/eda with r/.jpg']
   },
   {
-    num:'10', emoji:'😷',
-    tags:['ai','cv','ds'],
-    date:'Jun 2024',
-    cats:['Computer Vision','Deep Learning','AI/ML'],
-    catColors:['syn-purple','syn-cyan'],
-    title:'Face Mask Detection using Deep Learning',
-    descShort:'Real-time deep learning model to detect mask usage, deployed as a web app with camera and image upload support.',
-    features:['Real-time webcam detection','MobileNetV2 transfer learning','Flask web deployment','Image upload support','High inference speed'],
-    problem:'Monitoring mask usage manually in public areas is inefficient and unscalable for large-scale compliance checking.',
-    solution:'MobileNetV2-based transfer learning model for real-time mask detection deployed as a Flask web app supporting webcam and image upload.',
-    contribution:[
-      'Trained MobileNetV2-based transfer learning model on labeled mask/no-mask dataset.',
-      'Integrated OpenCV for real-time webcam detection with bounding box annotation.',
-      'Deployed model via Flask web app supporting both live camera and image upload.',
-      'Achieved high accuracy through fine-tuning and data augmentation techniques.',
-      'Optimized model inference speed for real-time performance on standard hardware.'
-    ],
-    result:'Real-time face mask detection via webcam & image upload with high accuracy',
-    stack:['Python','TensorFlow','MobileNetV2','OpenCV'],
-    tools:['Jupyter Notebook','GitHub','Postman'],
-    github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/4792',
-    slides:['assets/projects/facemask detection/.jpg','assets/projects/facemask detection/.jpg','assets/projects/facemask detection/.jpg']
-  },
-  {
-    num:'11', emoji:'🔊',
+    num:'12', emoji:'🔊',
     tags:['ai','ds','speech'],
     date:'May 2024',
     cats:['Speech','AI / ML','Data Science'],
@@ -272,29 +295,7 @@ const PROJECTS = [
     github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/4723',
     slides:['assets/projects/facemask detection/.jpg',]
   },
-  {
-    num:'12', emoji:'👤',
-    tags:['ai','cv','ds'],
-    date:'[Fill Date]',
-    cats:['Computer Vision','Deep Learning','AI / ML'],
-    catColors:['syn-purple','syn-cyan'],
-    title:'Face Recognition System for Security Application',
-    descShort:'[DUMMY] Fill with your project description. Deep learning face recognition for identity verification.',
-    features:['Real-time recognition','Identity verification','Deep learning model','OpenCV integration','[Feature 5]'],
-    problem:'[DUMMY] Describe the problem this project solved.',
-    solution:'[DUMMY] Describe your solution and technical approach.',
-    contribution:[
-      '[Bullet 1] What did you do?',
-      '[Bullet 2]',
-      '[Bullet 3]',
-      '[Bullet 4]',
-      '[Bullet 5]'],
-    result:'[DUMMY] Replace with your real result metric',
-    stack:['Python','PyTorch','DeepFace','TensorFlow'],
-    tools:['Google Colab','Git & GitHub'],
-    github:'https://github.com/puteriazli/Face-Recognition-for-Security-System',demo:'',portfolio:'',
-    slides:['assets/projects/face recognition/.jpg','assets/projects/face recognition/.jpg','assets/projects/face recognition/.jpg','assets/projects/face recognition/.jpg','assets/projects/face recognition/.jpg']
-  },
+
 
   /* ════ FULLSTACK ════ */
   {
@@ -365,38 +366,6 @@ const PROJECTS = [
     github:'',demo:'',portfolio:'',
     slides:['assets/projects/portfolio web/.jpg','assets/projects/portfolio web/.jpg','assets/projects/portfolio web/.jpg']
   },
-  // {
-  //   num:'16', emoji:'🌐',
-  //   tags:['fullstack','frontend','other'],
-  //   date:'[Fill Date]',
-  //   cats:['Fullstack','Frontend'],
-  //   catColors:['syn-orange','syn-yellow'],
-  //   title:'Fullstack Web Project — Dummy #1',
-  //   descShort:'[DUMMY] Fill with your project description. Fullstack web application.',
-  //   features:['[Feature 1]','[Feature 2]','[Feature 3]','[Feature 4]','[Feature 5]'],
-  //   problem:'[DUMMY] Problem statement.',solution:'[DUMMY] Solution.',
-  //   contribution:['[Bullet 1]','[Bullet 2]','[Bullet 3]','[Bullet 4]','[Bullet 5]'],
-  //   result:'[DUMMY] Replace with real result',
-  //   stack:['PHP','CodeIgniter 4','MySQL','JavaScript','Bootstrap'],
-  //   tools:['VS Code','XAMPP','GitHub'],
-  //   github:'',demo:'',portfolio:'',slides:[]
-  // },
-  // {
-  //   num:'17', emoji:'🚀',
-  //   tags:['fullstack','backend','other'],
-  //   date:'[Fill Date]',
-  //   cats:['Fullstack','Backend'],
-  //   catColors:['syn-orange','syn-blue'],
-  //   title:'Fullstack Web Project — Dummy #2',
-  //   descShort:'[DUMMY] Fill with your project description.',
-  //   features:['[Feature 1]','[Feature 2]','[Feature 3]','[Feature 4]','[Feature 5]'],
-  //   problem:'[DUMMY] Problem.',solution:'[DUMMY] Solution.',
-  //   contribution:['[Bullet 1]','[Bullet 2]','[Bullet 3]','[Bullet 4]','[Bullet 5]'],
-  //   result:'[DUMMY] Replace with real result',
-  //   stack:['React','Flask','Python','MySQL'],
-  //   tools:['VS Code','GitHub','Postman'],
-  //   github:'',demo:'',portfolio:'',slides:[]
-  // },
 
   /* ════ IOT ════ */
   {
