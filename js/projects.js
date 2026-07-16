@@ -27,14 +27,15 @@ const PROJECTS = [
     github:'https://github.com/puteriazli/TomatSehat-tomato-plant-disease-classification-system-with-AI/blob/main/README.md',
     demo:'https://youtu.be/QrW2xr9Nk54',
     portfolio:'',
-    slides:['assets/projects/data science/tomato plant disease classification system using ai detection/',
-      'assets/projects/data science/tomato plant disease classification system using ai detection/model training.png',
-      'assets/projects/data science/tomato plant disease classification system using ai detection/model result.png',
+    slides:['assets/projects/data science/tomato plant disease classification system using ai detection/svm_rbf_animation.gif',
+      'assets/projects/data science/tomato plant disease classification system using ai detection/benchmark algorithm.png',
+      'assets/projects/data science/tomato plant disease classification system using ai detection/learning curve.png',
+      'assets/projects/data science/tomato plant disease classification system using ai detection/code.png',
       'assets/projects/data science/tomato plant disease classification system using ai detection/web interface.png']
   },
   {
     num:'02', emoji:'📡',
-    tags:['ds','eda'],
+    tags:['ds','eda','da'],
     date:'May 2024',
     cats:['Data Science & Analysis','EDA','Dashboard','Data Visualization','Time Series Analysis','Forecasting','Geospatial Analysis','Data Sensor'],
     catColors:['syn-green','syn-blue','syn-yellow','syn-red','syn-orange','syn-pink','syn-teal','syn-blue','syn-purple'],
@@ -89,9 +90,12 @@ const PROJECTS = [
     github:'https://github.com/puteriazli/SmartProperty-automated-house-price-prediction-system/blob/main/readme.md',
     demo:'https://youtu.be/euN8VXaNDnA',
     portfolio:'',
-    slides:['assets/projects/data science/house price prediction system using machine learning/',
-      'assets/projects/data science/house price prediction system using machine learning/web interface.png',
-      'assets/projects/data science/house price prediction system using machine learning/model training.png'
+    slides:['assets/projects/data science/house price prediction system using machine learning/cover.jpeg',
+      'assets/projects/data science/house price prediction system using machine learning/house price accuracy.png',
+      'assets/projects/data science/house price prediction system using machine learning/RF learning curve.png',
+      'assets/projects/data science/house price prediction system using machine learning/feature engineering.png',
+      'assets/projects/data science/house price prediction system using machine learning/code.png',
+      'assets/projects/data science/house price prediction system using machine learning/web interface.png'
     ]
   },
     {
@@ -114,9 +118,12 @@ const PROJECTS = [
     stack:['Python','PyTorch','DeepFace','Scikit-learn'],
     tools:['Google Colab','Git & GitHub'],
     github:'https://github.com/puteriazli/Face-Recognition-for-Security-System',demo:'',portfolio:'',
-    slides:['assets/projects/data science/face recognition system for security application/',
-      'assets/projects/data science/face recognition system for security application/',
-      'assets/projects/data science/face recognition system for security application/'
+    slides:['assets/projects/data science/face recognition system for security application/code.png',
+      'assets/projects/data science/face recognition system for security application/sample preview.png',
+      'assets/projects/data science/face recognition system for security application/training curve.png',
+      'assets/projects/data science/face recognition system for security application/eda distribution.png',
+      'assets/projects/data science/face recognition system for security application/data split distribution.png',
+      'assets/projects/data science/face recognition system for security application/tsne.png'
     ]
   },
   {
@@ -142,8 +149,8 @@ const PROJECTS = [
     github:'https://github.com/puteriazli/VoiceOfDANA-Sentiment-Intelligence-on-Digital-Payment-Reviews/blob/main/README.md',
     demo:'',portfolio:'',
     slides:['assets/projects/data science/sentiment analysis for dana application/',
-      'assets/projects/data science/sentiment analysis for dana application/',
-      'assets/projects/data science/sentiment analysis for dana application/',
+      'assets/projects/data science/sentiment analysis for dana application/2.png',
+      'assets/projects/data science/sentiment analysis for dana application/code.png',
       'assets/projects/data science/sentiment analysis for dana application/'
     ]
   },
@@ -174,7 +181,7 @@ const PROJECTS = [
   },
   {
     num:'07', emoji:'📱',
-    tags:['ds','timeseries','eda'],
+    tags:['ds','timeseries','eda','da'],
     date:'May — Jun 2024',
     cats:['Data Analysis','Time Series Analysis','Trend & Sentiment Analysis','Product Analytics',' Data Visualization','EDA'],
     catColors:['syn-green','syn-yellow'],
@@ -282,7 +289,7 @@ const PROJECTS = [
   },
   {
     num:'11', emoji:'📈',
-    tags:['ds','eda'],
+    tags:['ds','eda','da'],
     date:'Mar 2024',
     cats:['Data Analysis','Data Science','EDA','Data Preprocessing','Data Visualization'],
     catColors:['syn-green','syn-blue'],
@@ -436,8 +443,11 @@ const PROJECTS = [
     github:'https://github.com/puteriazli/IoT-Air-Quality-Monitoring-with-Real-Time-Alert-via-Telegram/blob/main/README.md',
     demo:'',portfolio:'',
     slides:['assets/projects/iot/air quality monitoring with telegram bot notification & lcd/',
-      'assets/projects/iot/air quality monitoring with telegram bot notification & lcd/',
-      'assets/projects/iot/air quality monitoring with telegram bot notification & lcd/'
+      'assets/projects/iot/air quality monitoring with telegram bot notification & lcd/1.jpg',
+      'assets/projects/iot/air quality monitoring with telegram bot notification & lcd/2.png',
+      'assets/projects/iot/air quality monitoring with telegram bot notification & lcd/3.png',
+      'assets/projects/iot/air quality monitoring with telegram bot notification & lcd/4.png',
+      'assets/projects/iot/air quality monitoring with telegram bot notification & lcd/5.png'
     ]
   },
   {
@@ -561,9 +571,10 @@ const PROJECTS = [
     stack:['Arduino','Python','Sensor API','Alert System'],
     tools:['Arduino IDE','HC-SR04 Ultrasonic Sensor','NodeMCU ESP8266','LED'],
     github:'',demo:'',portfolio:'',
-    slides:['assets/projects/iot/distance monitoring and automatic led indicator system/',
-      'assets/projects/iot/distance monitoring and automatic led indicator system/',
-      'assets/projects/iot/distance monitoring and automatic led indicator system/'
+    slides:['assets/projects/iot/distance monitoring and automatic led indicator system/1.jpg',
+      'assets/projects/iot/distance monitoring and automatic led indicator system/2.png',
+      'assets/projects/iot/distance monitoring and automatic led indicator system/3.jpg',
+      'assets/projects/iot/distance monitoring and automatic led indicator system/4.jpg'
     ]
   },
   {
@@ -588,8 +599,8 @@ const PROJECTS = [
     stack:['Internet of Things (IoT)','Embedded Systems','C++','Wi-Fi Communication'],
     tools:['Arduino IDE','LDR Sensor','LED','NodeMCU ESP8266'],
     github:'',demo:'',portfolio:'',
-    slides:['assets/projects/iot/light intensity monitoring with automatic led control system/',
-      'assets/projects/iot/light intensity monitoring with automatic led control system/',
+    slides:['assets/projects/iot/light intensity monitoring with automatic led control system/1.jpg',
+      'assets/projects/iot/light intensity monitoring with automatic led control system/2.jpg',
       'assets/projects/iot/light intensity monitoring with automatic led control system/'
     ]
   },
@@ -613,9 +624,8 @@ const PROJECTS = [
     stack:[ 'IoT','C/C++','Embedded Systems','Wi-Fi Communication','Closed-Loop Control System'],
     tools:['IDE Arduino','nodeMCU Esp8266','DHT11 Sensor','LED'],
     github:'',demo:'',portfolio:'',
-    slides:['assets/projects/iot/temperature monitoring and automatic led control system/',
-      'assets/projects/iot/temperature monitoring and automatic led control system/',
-      'assets/projects/iot/temperature monitoring and automatic led control system/'
+    slides:['assets/projects/iot/temperature monitoring and automatic led control system/1.jpg',
+      'assets/projects/iot/temperature monitoring and automatic led control system/2.jpg'
     ]
   },
 
