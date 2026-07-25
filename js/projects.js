@@ -175,8 +175,9 @@ const PROJECTS = [
     stack:['Python','TensorFlow','Flask','React','CNN','OpenCV','REST API'],
     tools:['Jupyter Notebook','GitHub','Postman'],
     github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/4824',
-    slides:['assets/projects/data science/road damage detection system using deep learning/',
-      'assets/projects/data science/road damage detection system using deep learning/'
+    slides:['assets/projects/data science/road damage detection system using deep learning/1.png',
+      'assets/projects/data science/road damage detection system using deep learning/2.png',
+      'assets/projects/data science/time series analysis for whatsapp review application/3.png'
     ]
   },
   {
@@ -202,10 +203,10 @@ const PROJECTS = [
     tools:['Jupyter Notebook','Google Colab'],
     github:'https://github.com/puteriazli/WhatsApp-Pulse-app-review-trend-sentiment-analysis/blob/main/README.md',
     demo:'',portfolio:'',
-    slides:['assets/projects/data science/time series analysis for whatsapp review application/',
-      'assets/projects/data science/time series analysis for whatsapp review application/',
-      'assets/projects/data science/time series analysis for whatsapp review application/',
-      'assets/projects/data science/time series analysis for whatsapp review application/'
+    slides:['assets/projects/data science/time series analysis for whatsapp review application/1.png',
+      'assets/projects/data science/time series analysis for whatsapp review application/2.png',
+      'assets/projects/data science/time series analysis for whatsapp review application/3.png',
+      'assets/projects/data science/time series analysis for whatsapp review application/4.png'
     ]
   },
     {
