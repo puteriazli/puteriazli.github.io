@@ -684,7 +684,7 @@ const PROJECTS = [
       'assets/projects/software/electricity payment calculation and billing system/2.png',
       'assets/projects/software/electricity payment calculation and billing system/3.png',
       'assets/projects/software/electricity payment calculation and billing system/4.png',
-      'assets/projects/software/electricity payment calculation and billing system/5.png',
+      'assets/projects/software/electricity payment calculation and billing system/5.png'
     ]
   },
   {
