@@ -703,8 +703,11 @@ const PROJECTS = [
     stack:['Java','Java Swing','MySQL','JDBC','OOP'],
     tools:['Java','NetBeans IDE'],
     github:'',demo:'',portfolio:'',
-    slides:['assets/projects/software/laundry billing and order management system/',
-      'assets/projects/software/laundry billing and order management system/'
+    slides:['assets/projects/software/laundry billing and order management system/1.png',
+      'assets/projects/software/laundry billing and order management system/2.png',
+      'assets/projects/software/laundry billing and order management system/3.png',
+      'assets/projects/software/laundry billing and order management system/4.png',
+      'assets/projects/software/laundry billing and order management system/5.png',
     ]
   },
   {
