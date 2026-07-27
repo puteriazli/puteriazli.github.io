@@ -680,8 +680,11 @@ const PROJECTS = [
     stack:['Java','Java Swing','MySQL','JDBC','OOP'],
     tools:['NetBeans IDE'],
     github:'',demo:'',portfolio:'',
-    slides:['assets/projects/software/electricity payment calculation and billing system/',
-      'assets/projects/software/electricity payment calculation and billing system/'
+    slides:['assets/projects/software/electricity payment calculation and billing system/1.png',
+      'assets/projects/software/electricity payment calculation and billing system/2.png',
+      'assets/projects/software/electricity payment calculation and billing system/3.png',
+      'assets/projects/software/electricity payment calculation and billing system/4.png',
+      'assets/projects/software/electricity payment calculation and billing system/5.png',
     ]
   },
   {
