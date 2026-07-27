@@ -546,9 +546,11 @@ const PROJECTS = [
     stack:['Internet of Things (IoT)','Embedded Systems','C++','Wi-Fi Communication'],
     tools:['ESP8266', 'NodeMCU', 'DHT11 Sensor', 'DHT22 Sensor', 'Arduino IDE', 'Blynk IoT Platform'],
     github:'',demo:'',portfolio:'',
-    slides:['assets/projects/iot/temperature and humidity monitoring system based on iot/',
-      'assets/projects/iot/temperature and humidity monitoring system based on iot/',
-      'assets/projects/iot/temperature and humidity monitoring system based on iot/'
+    slides:['assets/projects/iot/temperature and humidity monitoring system based on iot/1.png',
+      'assets/projects/iot/temperature and humidity monitoring system based on iot/2.png',
+      'assets/projects/iot/temperature and humidity monitoring system based on iot/3.png',
+      'assets/projects/iot/temperature and humidity monitoring system based on iot/4.png',
+      'assets/projects/iot/temperature and humidity monitoring system based on iot/5.png',
     ]
   },
   {
