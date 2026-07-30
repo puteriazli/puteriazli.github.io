@@ -59,7 +59,7 @@ const PROJECTS = [
     stack:['Python','Pandas','Matplotlib','Seaborn','Plotly','NumPy'],
     tools:['Jupyter Notebook','Google Colab'],
     github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/5049',
-    slides:['assets/projects/data science/dashboard & forecasting air quality monitoring in europe city/',
+    slides:['assets/projects/data science/dashboard & forecasting air quality monitoring in europe city/3.png',
       'assets/projects/data science/dashboard & forecasting air quality monitoring in europe city/',
       'assets/projects/data science/dashboard & forecasting air quality monitoring in europe city/',
       'assets/projects/data science/dashboard & forecasting air quality monitoring in europe city/',
