@@ -174,7 +174,7 @@ const PROJECTS = [
     result:'Delivered an AI system with 83% accuracy while reducing manual inspection by 90%.',
     stack:['Python','TensorFlow','Flask','React','CNN','OpenCV','REST API'],
     tools:['Jupyter Notebook','GitHub','Postman'],
-    github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/4824',
+    github:'',demo:'',portfolio:'https://bisa.ai/portofolio/detail/NDgyNA',
     slides:['assets/projects/data science/road damage detection system using deep learning/1.png',
       'assets/projects/data science/road damage detection system using deep learning/2.png',
       'assets/projects/data science/time series analysis for whatsapp review application/3.png'
@@ -256,7 +256,7 @@ const PROJECTS = [
     stack:['Python','Scikit-learn','Pandas','Matplotlib','Seaborn','SVM','Random Forest'],
     tools:['Jupyter Notebook','Google Colab'],
     github:'https://github.com/puteriazli/CancerSense-AI-for-breast-cancer-classification/blob/main/breast%20cancer%20classification%20model.ipynb',
-    demo:'',portfolio:'',
+    demo:'',portfolio:'https://bisa.ai/portofolio/detail/NTA1OA',
     slides:['assets/projects/data science/breast cancer disease classification/',
       'assets/projects/data science/breast cancer disease classification/',
       'assets/projects/data science/breast cancer disease classification/'
@@ -282,7 +282,7 @@ const PROJECTS = [
     result:'Feature-based emotion comparison pipeline with spectral visualization across 6 classes',
     stack:['Python','Librosa','MFCC','NumPy','Matplotlib','Scikit-learn'],
     tools:['Jupyter Notebook','Google Colab'],
-    github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/5106',
+    github:'',demo:'',portfolio:'https://bisa.ai/portofolio/detail/NTEwNg',
     slides:['assets/projects/data science/comparison of emotion recognition based on voice features/',
       'assets/projects/data science/comparison of emotion recognition based on voice features/',
       'assets/projects/data science/comparison of emotion recognition based on voice features/'
@@ -308,7 +308,7 @@ const PROJECTS = [
     result:'Full EDA report with statistical insights and reproducible R code',
     stack:['R','ggplot2','dplyr','tidyr','R Markdown','corrplot'],
     tools:['RStudio','GitHub'],
-    github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/4948',
+    github:'',demo:'',portfolio:'https://bisa.ai/portofolio/detail/NDk0OA',
     slides:['assets/projects/data science/exploratory data analysis with r/',
       'assets/projects/data science/exploratory data analysis with r/'
     ]
@@ -333,7 +333,7 @@ const PROJECTS = [
     result:'Multi-class speech emotion classifier with feature visualization',
     stack:['Python','Librosa','TensorFlow','Scikit-learn','MFCC','NumPy'],
     tools:['Jupyter Notebook','Google Colab','GitHub'],
-    github:'',demo:'',portfolio:'https://bisa.ai/portofolioku/detail/4723',
+    github:'',demo:'',portfolio:'https://bisa.ai/portofolio/detail/NDcyMw',
     slides:['assets/projects/data science/ai voice emotion classification based on voice/',
       'assets/projects/data science/ai voice emotion classification based on voice/',
       'assets/projects/data science/ai voice emotion classification based on voice/'
@@ -389,10 +389,8 @@ const PROJECTS = [
     result:'The website successfully serves as an informative and responsive platform for school promotion, making it easier for students, parents, and the public to access official school information online.',
     stack:['HTML','CSS','JavaScript'],
     tools:['VS Code','Git','GitHub','Google Maps Embed'],
-    github:'https://github.com/puteriazli/SMK-N-13-Sarolangun-profile-website',demo:'',portfolio:'',
-    slides:['assets/projects/web/smk negeri 13 sarolangun school profile website/',
-      'assets/projects/web/smk negeri 13 sarolangun school profile website/'
-    ]
+    github:'https://github.com/puteriazli/SMK-Negeri-13-Sarolangun-School-Profile-Website',demo:'https://puteriazli.github.io/SMK-Negeri-13-Sarolangun-School-Profile-Website/',portfolio:'',
+    slides:['assets/projects/web/smk negeri 13 sarolangun school profile website/1.png']
   },
   {
     num:'15', emoji:'🧑‍💻',
@@ -414,9 +412,9 @@ const PROJECTS = [
     result:'Zero-framework portfolio with 12+ themes, particles, and 30 projects',
     stack:['HTML','CSS','JavaScript','Canvas API','CSS Variables','UI/UX'],
     tools:['VS Code','GitHub Pages'],
-    github:'',demo:'',portfolio:'https://puteriazli.github.io',
-    slides:['assets/projects/web/personal portfolio website',
-      'assets/projects/web/personal portfolio website'
+    github:'https://github.com/puteriazli/puteriazli.github.io',demo:'https://puteriazli.github.io/',portfolio:'https://github.com/puteriazli/puteriazli.github.io/blob/master/README.md',
+    slides:['assets/projects/web/personal portfolio website/1.png',
+      'assets/projects/web/personal portfolio website/2.png'
     ]
   },
 
